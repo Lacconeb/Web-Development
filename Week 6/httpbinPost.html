@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>httpbin Post</title>
+</head>
+
+<body>
+    <form>
+        <label>Testing httpbin Post</label>
+        <fieldset>
+            <p><label>Input anything: <input type="text" name="something" id="anything"></label></p>            
+            <p><input type="submit" name="submit" id="postIt"></p>
+        </fieldset>
+    </form>
+
+    <br>
+    
+    <table>
+        <caption>httpbin response</caption>
+        <tr>
+            <th>Description</th>
+            <th>Result</th>
+        </tr>
+        <tr>
+            <td>Anything: </td>
+            <td id="anythingResponse"> ----- </td>
+        </tr>
+    </table>
+
+    <script src="httpbinPost.js"></script>
+</body>
+</html>

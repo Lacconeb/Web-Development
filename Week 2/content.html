@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<!-- 
+    Brian Laccone 
+    CS 290
+    HW Assignment: HTML/CSS
+    10/8/2017
+-->
+<html>
+    <head>
+        <title>HW Assignment</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+    <body>
+        <table id="peopleinfo">
+            <caption>Information On People</caption>
+            
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Age</th>
+                    <th>Occupation</th>
+                    <th>Location</th>
+                    <th>Hair Color</th>
+                    <th>Eye Color</th>
+                </tr>
+            </thead>
+
+            <tfoot>
+                <tr>
+                    <td colspan="2">Footer 1</td>
+                    <td colspan="4">Footer 2</td>
+                </tr>
+            </tfoot>
+            
+            <tbody>
+                <tr>
+                    <td><em>Kate</em></td>
+                    <td>26</td>
+                    <td>Registered Nurse</td>
+                    <td>Detroit, MI</td>
+                    <td>Brown</td>
+                    <td>Brown</td>
+                </tr>
+                <tr>
+                    <td><em>Brandon</em></td>
+                    <td>37</td>
+                    <td>Police Officer</td>
+                    <td>Chicago, IL</td>
+                    <td>Brown</td>
+                    <td>Blue</td>
+                </tr>
+                <tr>
+                    <td><em>Jennifer</em></td>
+                    <td>35</td>
+                    <td>Entrepreneur</td>
+                    <td>Los Angeles, CA</td>
+                    <td>Blonde</td>
+                    <td>Green</td>
+                </tr>
+                <tr>
+                    <td><em>Ashley</em></td>
+                    <td>32</td>
+                    <td>Software Engineer</td>
+                    <td>New York, NY</td>
+                    <td>Black</td>
+                    <td>Brown</td>
+                </tr>
+                <tr>
+                    <td><em>Jason</em></td>
+                    <td>23</td>
+                    <td>Waiter</td>
+                    <td>San Diego, CA</td>
+                    <td>Black</td>
+                    <td>Blue</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <ol>
+            <li>Best language</li>
+            <ul>
+                <li>Python</li>
+            </ul>
+            <li>Wackyist Language</li>
+            <ul>
+                <li>Haskell</li>
+            </ul>
+            <li>SEGFAULTiest language</li>
+            <ul>
+                <li>C</li>
+            </ul>
+        </ol>
+
+        <div id="outer-content">
+            <div id="inner-content">
+            Here is some content.
+            </div>
+        </div>
+
+        <form action="http://classes.engr.oregonstate.edu/eecs/winter2015/cs290-400/tools/class-content/form_tests/check_request.php" method="get">
+            <fieldset>
+                <legend>Some GET Data:</legend>
+                <label>Text here:
+                    <input type="text" name="text_input" size="30" maxlength = "100">
+                </label>
+                </br>
+                </br>
+                <label>Number here:
+                    <input type="number" name="numerical_input" size="30" maxlength = "11">
+                </label>
+                </br>
+                </br>
+                <label>Password here:
+                    <input type="password" name="password_input" size="30" maxlength="30">
+                </label>
+                </br>
+
+                <section class= "radio">
+                <p>Select between:
+                </br>
+                </br>
+                <label>
+                    <input type="radio" name="candy" value="Snickers" />Snickers
+                </label>
+                </br>
+                <label>
+                    <input type="radio" name="candy" value="Skittles" />Skittles
+                </label>
+                </br>
+                <label>
+                    <input type="radio" name="candy" value="Mentos" />Mentos
+                </label>
+                </br>
+                </br>
+                <label>
+                    <input type="submit" value="Submit" />
+                </label>
+                    
+                </section>
+                </p>
+            </fieldset>
+        </form>
+        <form action="http://classes.engr.oregonstate.edu/eecs/winter2015/cs290-400/tools/class-content/form_tests/check_request.php" method="post">
+            <fieldset>
+                <legend>Some POST Data:</legend>
+                <label>Text here:
+                    <input type="text" name="text_input" size="30" maxlength = "100">
+                </label>
+                </br>
+                </br>
+                <label>Number here:
+                    <input type="number" name="numerical_input" size="30" maxlength = "11">
+                </label>
+                </br>
+                </br>
+                <label>Password here:
+                    <input type="password" name="password_input" size="30" maxlength="30">
+                </label>
+                </br>
+                
+                <section class= "radio">
+                <p>Select between:
+                </br>
+                </br>
+                <label>
+                    <input type="radio" name="candy" value="Snickers" />Snickers
+                </label>
+                </br>
+                <label>
+                    <input type="radio" name="candy" value="Skittles" />Skittles
+                </label>
+                </br>
+                <label>
+                    <input type="radio" name="candy" value="Mentos" />Mentos
+                </label>
+                </br>
+                </br>
+                <label>
+                    <input type="submit" value="Submit" />
+                </label>
+                    
+                </section>
+                </p>
+            </fieldset>
+        </form>
+
+    </body>
+</html>

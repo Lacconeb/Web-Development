@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>GET The Weather</title>
+</head>
+<body>
+    <form>
+        <label>Enter a zip code or city for current weather information</label>
+        <fieldset>
+            <p><label>Zip Code:  <input type="text" name="zipCode" id="zip" size="9"</label></p>
+            <p><label>City:  <input type="text" name="city" id="city" size="30"<label></p>
+            <p><input type="submit" name="submit" id="getWeather"></p>
+        </fieldset>
+    </form>
+    
+    <br>
+     
+    <table>                                                             
+        <caption>Current Weather</caption>
+        <tr>
+            <th>Description</th>
+            <th>Result</th>
+        </tr>
+        <tr>
+            <td>Temperature:</td>
+            <td id="tmp"> ----- </td>
+        </tr>
+
+        <tr>
+            <td>Humidity:</td>
+            <td id="hum"> ----- </td>
+        </tr>
+        <tr>
+            <td>Wind Speed:</td>
+            <td id="spd"> ----- </td>
+        </tr>
+    </table>
+
+    <script src="getWeatherInfo.js"></script>
+</body>
+</html>

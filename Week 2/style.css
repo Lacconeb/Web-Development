@@ -1,0 +1,38 @@
+table{
+    border: solid black;
+}
+th, td{
+    border: solid black;
+}
+
+table#peopleinfo tbody tr:nth-of-type(even){
+	background: #73C3F1;
+}
+
+table#peopleinfo tbody tr:nth-of-type(odd){
+	background: #4FDA4F;
+}
+
+table#peopleinfo tbody td:nth-of-type(2){
+	color: red;
+}
+
+table#peopleinfo tbody td:nth-of-type(4){
+	color: blue;
+}
+
+#outer-content{
+	width: 75%;
+	background-color: pink;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+#inner-content{
+    width: 75%;
+    margin: auto;
+	background-color: lightskyblue;
+	text-align: center;
+}
+
+
